@@ -11297,7 +11297,7 @@ html {
 
 .bg-gradient-primary-to-secondary {
   /*background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;*/
-  background: url("../assets/img/aurora.jpg");
+  background: url("../assets/img/aurora2.jpg");
   background-size: 100%;
 }
 
@@ -11405,6 +11405,14 @@ section {
   left: 0%;
   width: 100%;
   height: 100%;
+}
+
+section.ctb {
+  position: relative;
+  padding: 15rem 0;
+  background-image: url("../assets/img/aurora.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 section.cta {
